@@ -1,0 +1,61 @@
+@import url('http://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+:root{
+/* - Color palette - */
+--blue1: #93b1cb;
+--blue2: #85a7c5;
+--blue3: #789ebf;
+--greenA1: #568f6a;
+--greenA2: #428157;
+--greenA3: #2d7345;
+--greenB1: #8fe094;
+--greenB2: #81dc87;
+--greenB3: #73d97a;
+--yellowA1: #f4a966;
+--yellowA2: #f39e54;
+--yellowA3:#f29441;
+--yellowB1: #f4b669;
+--yellowB2: #f3ad56;
+--yellowB3:#f2a444;
+}
+
+*{
+    @include box-sizing(border-box);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans';
+    box-sizing: border-box;
+}
+
+summary{
+    cursor: pointer;
+    background-color: var(--yellowB2);
+    border: var(--yellowA3) double 5px;
+}
+  
+.h1title{
+    color: var(--greenA3);
+    background-color: var(--yellowB2);
+    border: var(--yellowA3) double 5px;
+}
+
+.ptext{
+    color: var(--greenA3);
+    background-color: var(--greenB1);
+    border: var(--greenB3) solid 5px;
+}
+
+.centralize{
+    margin: 0 auto;
+}
+
+#square{
+    
+    color: var(--greenA3);
+   background-color: var(--greenA1);
+   text-align: center;
+   border: var(--greenA3) solid 10px;
+   width: 900px;
+   padding: 50px;
+   margin: 100px 250px;
+}
+
